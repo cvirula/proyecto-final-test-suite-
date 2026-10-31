@@ -1,0 +1,22 @@
+{
+  "name": "@biblioteca/backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test:unit": "vitest run tests/unit --coverage",
+    "test:integration": "vitest run tests/integration",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.0.5",
+    "supertest": "^7.1.4",
+    "vitest": "^5.0.5"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules/
+dist/
+coverage/
+.data/
+cypress/screenshots/
+cypress/videos/
+*.log
+.env
+.DS_Store
+Thumbs.db
+scripts/capture-evidence.mjs
